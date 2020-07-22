@@ -1,9 +1,10 @@
-# Practical-Projrct-HWA
+# Practical-Project-HWA
 
 Coverage: 34%
-# Project Title
 
-One Paragraph of project description goes here
+The overall objective of the project is the following: 
+
+To create an OOP-based web application, with utilisation of supporting tools, methodologies, and technologies, that encapsulates all fundamental and practical modules covered during training. 
 
 ## Getting Started
 
@@ -11,7 +12,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Specifically, you are required to create a full-stack web application following the Enterprise Architecture Model, using: 
+
+an application back-end developed using the language from your Programming Fundamentals module (e.g. Java) 
+
+a managed database hosted within the Cloud Provider examined during your Cloud Fundamentals module (e.g. MySQL in GCP) 
+
+a front-end developed using the language from your Front-End Web Technologies module (e.g. JavaScript) 
 
 ```
 Give examples
@@ -76,8 +83,8 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-* **Chris Perrins** - *Initial work* - [christophperrins](https://github.com/christophperrins)
-* **Nick Johnson** - *Refinements* - [nickrstewarttds](https://github.com/nickrstewarttds)
+* Pashupatiraj Sunuwar** - *Project lead* - [pashsunuwar](https://github.com/pashsunuwar)
+
 
 ## License
 
