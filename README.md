@@ -1,6 +1,6 @@
 # Practical-Project-HWA
 
-Coverage: 34%
+Coverage: 
 
 The overall objective of the project is the following: 
 
@@ -83,7 +83,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-* Pashupatiraj Sunuwar** - *Project lead* - [pashsunuwar](https://github.com/pashsunuwar)
+** Pashupatiraj Sunuwar** - *Project lead* - [pashsunuwar](https://github.com/pashsunuwar)
 
 
 ## License
