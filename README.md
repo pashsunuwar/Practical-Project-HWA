@@ -83,7 +83,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 
-** Pashupatiraj Sunuwar** - *Project lead* - [pashsunuwar](https://github.com/pashsunuwar)
+*Pashupatiraj Sunuwar** - *Project lead* - [pashsunuwar](https://github.com/pashsunuwar)
 
 
 ## License
