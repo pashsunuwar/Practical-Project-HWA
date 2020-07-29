@@ -28,10 +28,12 @@ div.sticky {
     color: white;
   }
   
-body {background-color: #F6F0EA;}
+body {background-color: #F6F0EA;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
-h1 {color: #7d9179;
-    font-family: monstserrat;
+h1 {
+    color: #7d9179;
 }
 h2 {
     color: #8B8072
@@ -40,15 +42,14 @@ h3 {
     color: #93797A
 }
 p {
-    font-family: monstserrat;
     color: #6D7B81
 }
 /* pancake  */
-body {
+/* body {
   display: grid;
   height: 100vh;
   grid-template-rows: auto 1fr auto;
-}
+} */
 
 .imgbox {
     display: grid;
@@ -62,6 +63,5 @@ img.reading {
 }
 
 footer {
-    background-color: #2E2B26;
-    
+    background-color: #2E2B26; 
 }
