@@ -1,3 +1,4 @@
+
 package com.qa.hobbyproject.SERVICE;
 
 import java.util.List;
@@ -22,5 +23,6 @@ public class UserService {
 		List<User> records = userrepo.findAll();
 		return records;
 	}
+	
 	
 }
