@@ -41,8 +41,11 @@ h2 {
 h3 {
     color: #93797A
 }
-p {
+a, p {
     color: #6D7B81
+}
+table {
+  color: #6D7B81
 }
 /* pancake  */
 /* body {
