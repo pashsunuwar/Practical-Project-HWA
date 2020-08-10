@@ -20,8 +20,8 @@ public class User {
 	private String username;	
 	private String email;
 	
-	@OneToMany(mappedBy = "users")
-	private Comments comments;
+//	@OneToMany(mappedBy = "users")
+//	private Comments comments;
 	
 	public User() {
 	}

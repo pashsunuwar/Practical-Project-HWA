@@ -20,18 +20,19 @@ import org.hibernate.annotations.CreationTimestamp;
 public class Comments {
 	
 	@Id 
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int commentID;
 	
 	@CreationTimestamp
 	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name = "create_date")
+	@Column(name = "created_date", insertable = false, columnDefinition = "timestamp default CURRENT_TIMESTAMP")
+//	IT WORKS!!!
 	private Date createdDate;
 	
-	@ManyToOne
-	@JoinColumn(referencedColumnName = "user_id")
-	private User user;
-	
+//	@ManyToOne
+//	@JoinColumn(referencedColumnName = "user_id")
+//	private User user;
+
 	private String review;
 
 
@@ -56,14 +57,14 @@ public class Comments {
 	}
 
 
-	public User getUser() {
-		return user;
-	}
-
-
-	public void setUser(User user) {
-		this.user = user;
-	}
+//	public User getUser() {
+//		return user;
+//	}
+//
+//
+//	public void setUser(User user) {
+//		this.user = user;
+//	}
 
 
 	public String getReview() {
