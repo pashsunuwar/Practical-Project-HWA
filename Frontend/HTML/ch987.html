@@ -23,32 +23,28 @@
     </header>
 </div>   
 <!-- MAIN BODY -->
-<div class='container'>
-<ul class="list-unstyled">
-  <li class="media">
-    <img src="..." class="mr-3" alt="...">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based media object</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-    </div>
-  </li>
-  <li class="media my-4">
-    <img src="..." class="mr-3" alt="...">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based media object</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-    </div>
-  </li>
-  <li class="media">
-    <img src="..." class="mr-3" alt="...">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based media object</h5>
-      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-    </div>
-  </li>
-</ul>
-</div>
+<div class = "container">
+<form action="index.html" method="post"> 
+  <fieldset>
+      <legend><span class="number"></span> Leave a comment</legend>
+      <!-- <label for="review">Review:</label> -->
+      <textarea type="text" class="reviewform" id="review" name="review_box" placeholder="Add to the conversation"></textarea>
+      
+      <!-- <label for="name">Name:</label> -->
+      <input type="text2" id="name" name="user_name" placeholder="Email (required but never shown)">
+      <br>
+      <!-- <label for="email">Email:</label> -->
+      <input type="text2" id="email" name="user_email" placeholder="Name (required)">
+  </fieldset>
+  <!-- <button type="submit">Post Comment</button> -->
+  <button type="button" class="btn btn-secondary btn-lg" disabled>Post Comment</button>
 
+  <!-- find out how to make active botton appear and disabled button dissappered after filling out the form -->
+  <!-- <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Post Comment</a> -->
+
+  <br>
+</form>
+</div>
 <!-- Footer -->
     <footer>
         <table class="myfooter" style="width:100%">
