@@ -6,14 +6,14 @@
                     let reviewTd = document.createElement('td');
                     let dateTd = document.createElement('td');
                     let editbutton = document.createElement('button');
-                    // let deletebutton = document.createElement('button');
+                    let deletebutton = document.createElement('button');
             
                     commentidTd.innerText = data.commentID;
                     reviewTd.innerText = data.review;
                     dateTd.innerText = data.createdDate;
             
-                    // editbutton.classList = "btn btn-warning";
-                    // editbutton.innerText = 'Edit';
+                    editbutton.classList = "btn btn-warning";
+                    editbutton.innerText = 'Edit';
                     // deletebutton.classList = 'Delete';
                     // deletebutton.setAttribute("href", `http://localhost:8010/comment/delete/${commentID}`)
             
