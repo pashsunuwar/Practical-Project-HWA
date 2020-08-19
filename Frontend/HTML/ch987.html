@@ -27,40 +27,31 @@
 <form action="#" id='commentForm' method="post"> 
   <fieldset>
       <legend><span class="number"></span> Leave a comment</legend>
-      <!-- <label for="review">Review:</label> -->
-      <textarea type="text" class="reviewform" id="completeform" name="review_box" onkeyup="manage(this)" placeholder="Add to the conversation" required ></textarea>
-      
-      <!-- <label for="name">Name:</label> -->
-      <input type="text2" id="user_name" name="completeform" onkeyup="manage(this)" placeholder="Email (required but never shown)" required>
+      <textarea type="text" class="reviewform" name="review_box" name="completeform"  placeholder="Add to the conversation" required ></textarea>
+      <input type="text2" id="email" name="email_box" name="completeform"  placeholder="Email (required but never shown)" required>
       <br>
-      <!-- <label for="email">Email:</label> -->
-      <input type="text2" id="user_email" name="completeform" onkeyup="manage(this)" placeholder="Name (required)" required>
+      <input type="text2" id="name" name="name_box" name="completeform"  placeholder="Name (required)" required>
   </fieldset>
   <!-- <button type="submit">Post Comment</button> -->
-  <button type="submit" class="btn btn-secondary btn-lg" id = 'btSubmit' disabled>Post Comment</button>
-
-  <!-- find out how to make active botton appear and disabled button dissappered after filling out the form -->
-  <!-- <a href="#" class="btn btn-secondary btn-lg active" id = 'btSubmit 'role="button" aria-pressed="true">Post Comment</a> -->
-
+  <button type="submit" value="submit" class="btn btn-secondary btn-lg" id = 'btSubmit' active>Post Comment</button>
   <br>
-</form>
+</form><br><div id='editForm'></div>
 </div>
 
-<!-- show comments -->
-<div class='container'>
-  <div id='myData'></div>
-</div>
-
+<br>
 <!-- comments section TABLE -->
  <!-- show comments -->
+ <div class='container'>
  <div class="row justify-content-around">
   <div class='myData'>
-      <table class="table table-hover col-8">
+      <table class="table table-striped">
         <thead class="thead-dark">
           <tr>
-            <th scope="col">Comment ID</th>
-            <th scope="col">Review</th>
+            <th scope="col">id</th>
+            <th scope="col">Name</th>
+            <th scope="col" width=100%>Review</th>
             <th scope="col">Date posted</th>
+            <th scope="col">Option</th>
           </tr>
         </thead>
         <tbody id="commentsContainer"></tbody>
@@ -68,6 +59,10 @@
     </div>
   </div>
   </div>
+</div>
+
+
+
 
 <!-- Footer -->
     <footer>
@@ -123,7 +118,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src='/Frontend/JS/addcomment.js'></script>
-    <script src='/Frontend/JS/comment.js'></script>
+    <!-- <script src='/Frontend/JS/comment.js'></script> -->
     <script src='/Frontend/JS/showcomments.js'></script>
   </body>
 </html>
