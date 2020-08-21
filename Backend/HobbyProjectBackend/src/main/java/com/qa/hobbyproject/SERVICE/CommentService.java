@@ -1,6 +1,8 @@
 package com.qa.hobbyproject.SERVICE;
 
 import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,12 +25,17 @@ public class CommentService {
 		return commentsrepo.findAll();
 	}
 	
+	//recent comments at the top
+	public List<Comments> descOrderComments() {
+		return commentsrepo.descOrder();
+	}
+	
 	//update
-	public String editComment(Comments comment) {
-		String message = "";
-		
-		return message;
-		
+	public Comments editComment(Comments comment, int id) {
+		Optional <Comments> opt = commentsrepo.findById(id);
+		Comments updatedComms = opt.get();
+		updatedComms.setReview(comment.getReview());
+		return commentsrepo.save(updatedComms);
 	}
 	
 	//delete
