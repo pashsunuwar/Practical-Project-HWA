@@ -6,7 +6,7 @@ document
     const data = {
         "review": this.review_box2.value
       }
-      fetch("http://localhost:8010/comment/edit/${data.commentID}", {
+      fetch(`http://localhost:8010/comment/edit/${data.commentID}`, {
         method: "POST",
         headers: {
           "Content-type": " application/json;",
