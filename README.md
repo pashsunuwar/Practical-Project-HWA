@@ -5,6 +5,17 @@ Coverage:
 The overall objective of the project is the following: 
 
 To create an OOP-based web application, with utilisation of supporting tools, methodologies, and technologies, that encapsulates all fundamental and practical modules covered during training. 
+The HWA project will contain languages including:
+* Java
+  
+* Javascript
+
+* MySQL
+
+* HTML
+  
+* CSS
+
 
 ## Getting Started
 
@@ -20,31 +31,18 @@ a managed database hosted within the Cloud Provider examined during your Cloud F
 
 a front-end developed using the language from your Front-End Web Technologies module (e.g. JavaScript) 
 
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Clone or fork the project with Git:
 
 ```
-Give the example
+https://github.com/pashsunuwar/Practical-Project-HWA
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system. Break down into which tests and what they do
+
 
 ### Unit Tests 
 
@@ -79,11 +77,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning.
+I used [GitHub](http://github.com/)- Version Control.
 
 ## Authors
 
-*Pashupatiraj Sunuwar** - *Project lead* - [pashsunuwar](https://github.com/pashsunuwar)
+*Pashupatiraj Sunuwar** - [pashsunuwar](https://github.com/pashsunuwar)
 
 
 ## License
@@ -94,7 +92,5 @@ This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat-tip to anyone whose code was used
-* Shout-out to anyone who helped you out
-* Inspiration
-* etc.
+* **Vinesh Ghela**
+* **Shafeeq Muhammad**
