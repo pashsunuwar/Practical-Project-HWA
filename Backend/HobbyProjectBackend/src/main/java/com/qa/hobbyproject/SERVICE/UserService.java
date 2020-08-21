@@ -24,5 +24,11 @@ public class UserService {
 		return records;
 	}
 	
+	public String deleteuser(int id) {
+		String msg = "";
+		userrepo.deleteById(id);
+		msg = " Successfully deleted the post with comment ID: " + id +". ";
+		return msg;
+	}
 	
 }

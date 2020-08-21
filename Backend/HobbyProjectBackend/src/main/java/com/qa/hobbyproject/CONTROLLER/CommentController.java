@@ -28,17 +28,24 @@ public class CommentController {
 		return commentservice.postComment(comment);
 	}
 	
-	@GetMapping("/showall")
+	@GetMapping("/viewall")
 	public List<Comments> showall() {
 		return commentservice.showallComments();
 	}
 	
+	@GetMapping("/showall")
+	public List<Comments> descOrderShowall() {
+		return commentservice.descOrderComments();
+	}
+	
+	@PostMapping("/edit/{id}")
+	public void editComment(@RequestBody Comments comment, @PathVariable int id) {
+		commentservice.editComment(comment, id);
+	}
+	
 	@DeleteMapping("/delete/{id}")
-	public String deleteComment(@PathVariable int id) {
-		String msg = "";
-		commentservice.deleteComment(id);
-		msg = " Successfully deleted the post with comment ID: " + id +". ";
-		return msg;
+	public void deleteComment(@PathVariable int id) {
+		commentservice.deleteComment(id);	
 	}
 	
 }
